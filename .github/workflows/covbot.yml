@@ -2,7 +2,7 @@ name: covbot
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # at every 5th minutes
+    - cron: '0 0 * * *'  # every day
 
 jobs:
   publish-data:

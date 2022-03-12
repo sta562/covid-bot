@@ -2,7 +2,7 @@ name: scrapping
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # at every 2th minutes
+    - cron: '0 */4 * * *'  # every 4 hours
 
 jobs:
   save-data:
